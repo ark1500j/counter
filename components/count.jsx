@@ -14,6 +14,7 @@ import dynamic from 'next/dynamic';
     
   return (
     <div className='mt-24'>
+    <h1>Counter App with zustand</h1>
         <div className='my-10 mx-4'>Count: {count}</div>
         <button onClick={increment} className='mx-10 py-2 px-10 rounded bg-slate-600' >up</button>
         <button onClick={decrement}  className='mx-10 py-2 px-10 rounded bg-slate-600' >down</button>
